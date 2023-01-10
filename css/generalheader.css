@@ -1,0 +1,132 @@
+.headermain {
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    padding: 15px 10px;
+}
+
+/*.menunav {
+    /*flex: 7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;*/
+    
+    /*align-items: center;
+    width: 100%;
+}*/
+.logo {
+    flex:1;
+}
+.buscador {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.iniciosesion {
+    flex: 1.5;
+    text-align: center;
+}
+
+.login {
+    /*flex: 1.5;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+form[name="loginform" ] {
+    background-color:lemonchiffon;
+    padding: 50px;
+    border-radius: 15%;
+    border-style:solid;
+}
+
+form[name="loginform" ] input {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.title {
+    flex: 10;
+    text-align: center;
+    font-family: georgia;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:mistyrose;
+}
+
+nav div {
+    padding: 5px 10px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.dropdown-content {
+    /*position: absolute;*/
+    overflow: auto;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block !important;
+}
+
+.dropdown-content a {
+    display:block;
+    /*background-color: lightgray;*/
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.dropdown-content a:link, .dropdown-content a:visited {
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: lightyellow;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+}
+
+.nombrecategoria {
+    font-family: helvetica;
+    font-size: 14px;
+}
+
+.subcategory { 
+    font-family: helvetica;
+    font-size: 14px;
+}
+
+.nombresubcategoriatipo { 
+    font-family: helvetica;
+    font-size: 14px;
+}
+
+.nombremarca {
+    font-family: helvetica;
+    font-size: 14px;
+}
+
+.titulomarca {
+    font-family: helvetica;
+    font-size: 14px;
+}

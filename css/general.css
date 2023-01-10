@@ -1,0 +1,25 @@
+.wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.subwrapper {
+    width: 80%;
+    margin: auto;
+
+}
+
+.width100 {
+    width: 100%;
+}
+
+.hiddenD {
+    display: none !important;
+}
+
+.hiddenV {
+    visibility: hidden;
+}

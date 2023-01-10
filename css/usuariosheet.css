@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+
+}
+
+/*table td, table th {
+    border: 1px solid black;
+}*/
+table th {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+table tfoot td {
+    border-bottom: 1px solid black;
+}
+
+table th:last-child, table td:last-child {
+    border-right: 1px solid black;
+}
+
+table th:nth-child( 1 ), table td:nth-child( 1 )  {
+    border-left: 1px solid black;
+}
+
+table td {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}

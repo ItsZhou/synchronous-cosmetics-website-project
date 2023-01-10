@@ -1,0 +1,16 @@
+.nombreproducto {
+    font-family: helvetica;
+    color:black;
+}
+.descripcionproducto {
+    font-family: helvetica;
+    font-size: 14px;
+}
+.fotoproducto {
+    width: 300px;
+    height: 300px;
+}
+.precioproducto {
+    font-family: helvetica;
+    font-size: 14px;
+}
